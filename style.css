@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(45, 45, 192);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header h1 {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: red;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+main button {
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+    background-color: lightblue;
+    margin: auto;
+    cursor: pointer;
+    cursor: pointer;
+    font-size: large;
+}
+
+main button:hover {
+    background-color: rgb(87, 197, 233);
+}
+
+
+footer {
+    width: 100%;
+    background-color: rgb(45, 45, 192);
+    height: 150px;
+    bottom: 0;
+    position: absolute;
+}
+
+.instrucoes p {
+    margin-bottom: 20px;
+}
+
+
+.test {
+    width: 250px;
+    height: 500px;
+    background-color: pink;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
