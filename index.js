@@ -65,6 +65,9 @@ function start() {
     initialCard.appendChild(imagePlaceHolder)
 
 
+    
+
+
 choosePic()
 
 };
