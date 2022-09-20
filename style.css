@@ -66,5 +66,7 @@ footer {
     background-color: pink;
     margin: auto;
     display: flex;
+    
     justify-content: space-around;
+    
 }
