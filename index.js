@@ -142,19 +142,18 @@ function start() {
     function coldInfo() {
         const attributes = [`Heresia = ${150} `, `Grego = ${0}`, `Sofismo = ${700}`, `Idolatria = ${100}`, `Uncao = ${50}`, `Indignacao = ${0}`]
 
-        // for(let i = 0; i < attributes.length; i++) {
-        //     const list = document.createElement('li')
-        //     // list.style.innerHTML = attributes.length
-        //     list.innerText = attributes[i];
+        for(let i = 0; i < attributes.length; i++) {
+            const list = document.createElement('li')
+            // list.style.innerHTML = attributes.length
+            list.innerText = attributes[i];
 
-        //     list.style.color= 'black'
-        //     list.style.backgroundColor=('yellow')
+            list.style.color= 'black'
+            list.style.backgroundColor=('yellow')
 
-        //     //append list to bottomSection
-        //     bottomSection.appendChild(list)
-        // }
+            //append list to bottomSection
+            bottomSection.appendChild(list)
+        }
 
-        loopAttributes()
     }
 
     
