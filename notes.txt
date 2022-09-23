@@ -1,0 +1,32 @@
+- npm init
+    (package-lock.json)
+-npm install express
+
+
+
+
+    QUANDO o jogador abre o site ele se depara com
+        - O nome do jogo
+        - instrucoes do jogo
+        - um botao para comecar a jogar
+ 
+
+
+
+ 
+    REGRA DO JOGO
+        - Ao clicar em Iniciar, voce recebera uma carta aleatoria com um personagem pelo qual enfrentara seus adversarions.
+
+        - Cada carta tera os seguintes atributos:
+            * Heresia
+            * Grego
+            * Teologia
+            * Historicidade
+            * Uncao
+        sendo que, cada atributo tera uma pontuacao que sera utilizada para encarar seu adversario.
+
+        - Voce tera 3 opcoes: Atacar, pular, upgrade
+            - se escolher Atacar, um dos 5 atributos  
+
+        - Imediatamente 
+  

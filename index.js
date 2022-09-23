@@ -12,6 +12,7 @@ startBtn.addEventListener("click", start);
 
 
 var characters = []
+console.log(characters)
 
 
 //start the game
@@ -108,34 +109,6 @@ function start() {
         topSection.appendChild(imagePlaceHolder)
     }
 
-
-    // //create card 
-    // //create card div
-    // const card = document.createElement('div');
-    // card.style.width = ('100%');
-    // card.style.height = ('100%');
-    // card.style.backgroundColor = ('yellow');
-    // // card.style.marginTop = ('250px')
-    // // append card to 'initialCard'
-    // bottomSection.appendChild(card)
-
-
-
-    //function for loop
-    function loopAttributes() {
-        for(let i = 0; i < attributes.length; i++) {
-            const list = document.createElement('li')
-            // list.style.innerHTML = attributes.length
-            list.innerText = attributes[i];
-    
-            list.style.color= 'black'
-            list.style.backgroundColor=('yellow')
-    
-            //append list to bottomSection
-            bottomSection.appendChild(list)
-        }
-    }
-   
 
 
     //function to add info to cold
@@ -245,4 +218,42 @@ function start() {
 
 choosePic()
 
+// 2 function to display avancar button and call avancar function
+
+function avancarButton() {
+    window.alert('test');
+    const buttonAvancar = document.createElement('button');
+    console.log(buttonAvancar)
+    buttonAvancar.innerText = 'avancar';
+    buttonAvancar.style.accentColor = 'white';
+    buttonAvancar.style.width = '100px';
+    buttonAvancar.style.height = '30px';
+    bottomSection.appendChild(buttonAvancar)
+
+}
+
+avancarButton()
+
 };
+
+
+
+// Use the for loop as a function and call it on each player card
+//  //function for loop
+//  function loopAttributes() {
+//     for(let i = 0; i < attributes.length; i++) {
+//         const list = document.createElement('li')
+//         // list.style.innerHTML = attributes.length
+//         list.innerText = attributes[i];
+
+//         list.style.color= 'black'
+//         list.style.backgroundColor=('yellow')
+
+//         //append list to bottomSection
+//         bottomSection.appendChild(list)
+//     }
+// }
+
+// ______________________________________________________________
+
+
