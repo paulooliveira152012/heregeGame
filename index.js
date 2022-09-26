@@ -229,7 +229,6 @@ function avancarButton() {
     buttonAvancar.style.width = '100px';
     buttonAvancar.style.height = '30px';
     bottomSection.appendChild(buttonAvancar)
-
 }
 
 avancarButton()

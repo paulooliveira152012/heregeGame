@@ -1,8 +1,7 @@
 - npm init
     (package-lock.json)
 -npm install express
-
-
+    (for servers)
 
 
     QUANDO o jogador abre o site ele se depara com
@@ -11,9 +10,6 @@
         - um botao para comecar a jogar
  
 
-
-
- 
     REGRA DO JOGO
         - Ao clicar em Iniciar, voce recebera uma carta aleatoria com um personagem pelo qual enfrentara seus adversarions.
 
@@ -30,3 +26,5 @@
 
         - Imediatamente 
   
+
+implementar rotas 
